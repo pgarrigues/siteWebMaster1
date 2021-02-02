@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* Enlever les bordures natives */
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Appliquer la police à tout le body */
+body{
+	font-family: 'Raleway', sans-serif; /* pour appliquer la police à tout le body */
+}
+
+/* Enlever les traits sous les liens */
+a {
+	text-decoration: none; /* pour enlever les traits sous les liens */
+}
+
+/* Enlever le padding de base de bootstrap */
+.container-fluid{
+	padding: 0px;
+}
+
+
+/* header */
+.header{
+	background-color: #03588C;
+	height: 70px;
+	line-height: 70px; /* --> centrer */
+	margin-bottom: 50px; 
+}
+
+.header img{
+	height: 70px;
+	float: left;
+	margin-right: 20px;
+}
+
+.header a{
+	color: #ffffff;
+}
+
+
+/* Connexion */
+.connexion{
+	width: 100%;
+	max-width: 100%;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* Inscription */
+.inscription{
+	padding: 30px;
+	margin-bottom: 70px;
+	background-color: #eeeeee;
+}
+
+.inscription a{
+	text-align: center;
+}
+
+
+
+/* footer */
+.footer{
+	background-color: #03588C;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
+.footer h2{
+	text-align: left;
+	color: #ffffff;
+}
+
+.footer p{
+	text-align: left;
+	color: #ffffff;
+}
+
+.footer a{
+	text-align: left;
+	color: #ffffff;
+}

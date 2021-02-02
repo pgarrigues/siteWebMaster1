@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* Enlever les bordures natives */
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Appliquer la police à tout le body */
+body{
+	font-family: 'Raleway', sans-serif; /* pour appliquer la police à tout le body */
+}
+
+/* Enlever les traits sous les liens */
+a {
+	text-decoration: none; /* pour enlever les traits sous les liens */
+}
+
+/* Enlever le padding de base de bootstrap */
+.container-fluid{
+	padding: 0px;
+}
+
+/* Petite barre de séparation */
+.separator{
+	height: 3px;
+	background-color: #73A2BF;
+	margin-bottom: 40px;
+}
+
+
+/* header */
+.header{
+	background-color: #03588C;
+	height: 70px;
+	line-height: 70px; /* --> centrer */
+}
+
+.header img{
+	height: 70px;
+	float: left;
+	margin-right: 20px;
+}
+
+.header a{
+	color: #ffffff;
+	margin-right: 10px;
+}
+
+
+/* bannière */
+.banner{
+	width: 100%;
+	max-width: 100%;
+}
+
+.ban{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+.ban img{
+	width: 100%;
+	max-width: 100%;
+}
+
+.inner-banner{
+	position: absolute;
+	top: 20%;
+	width: 90%;
+	text-align: right;
+}
+
+.inner-banner h1{
+	color: #ffffff;
+}
+
+.inner-banner h2{
+	color: #ffffff;
+}
+
+
+/* connexion */
+.connexion{
+	margin-bottom: 30px;
+}
+
+#connexion{
+	text-align: center;
+	padding: 20px;
+}
+
+.connexion article h2 {
+	text-align: center;
+}
+
+.connexion article{
+	margin-top: 10%;
+	text-align: justify;
+}
+
+.box_connexion{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+
+/* footer */
+.footer{
+	background-color: #03588C;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
+.footer h2{
+	text-align: left;
+	color: #ffffff;
+}
+
+.footer p{
+	text-align: left;
+	color: #ffffff;
+}
+
+.footer a{
+	text-align: left;
+	color: #ffffff;
+}
